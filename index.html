@@ -5,8 +5,23 @@
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
     <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+    <script type="text/javascript" src="app/js/data.js"></script>
+    <script type="text/javascript" src="app/js/selectors.js"></script>
+    <script type="text/javascript" src="app/js/calculator.js"></script>
 </head>
 <body>
-    <a href="#" class="btn btn-default">Foo</a>
+    <div class="form-group col-md-5">
+        <select id="product-selector" class="form-control"></select>
+        <div class="form-inline">
+            <input id="count" type="number" class="form-control" default="1">
+            <select id="volume-selector" class="form-control"></select>
+        </div>
+    </div>
+
+    <div id="outputs" class="col-md-12">
+        <a id="calculate" href="javascript:;" onclick="calculate();" class="btn btn-primary">Calculate</a>
+        <div id="calculated-values"></div>
+    </div>
 </body>
 </html>
