@@ -3,19 +3,19 @@ var getProductData = function() {
         rice:{
             name: 'rice',
             calories: 1.3,
-            sodium: 1,
+            sodium: 0.01,
             density: 0.9
         },
         strawberry: {
             name: 'strawberry',
             calories: 0.33,
-            sodium: 1,
+            sodium: 0.01,
             density: 1.4
         },
         soy_sauce: {
             name: 'soy sauce',
             calories: 0.53,
-            sodium: 5493,
+            sodium: 54.93,
             density: 1
         }
     };
